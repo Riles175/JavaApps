@@ -5,7 +5,8 @@
  */
 import java.util.Random;
 /**
- *
+ * @discription Will take a random number (0<x<100) and test it against 25 other
+ * random numbers.
  * @author rsexton17
  */
 public class randomNumberGenerator {

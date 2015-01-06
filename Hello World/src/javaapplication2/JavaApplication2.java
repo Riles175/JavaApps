@@ -5,6 +5,7 @@
  */
 
 package javaapplication2;
+import java.util.Scanner;
 
 /**
  *
@@ -16,7 +17,11 @@ public class JavaApplication2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+        String name = "Pete";
+        System.out.printf("Hello %s, what is your score?", name);
+        Scanner input = new Scanner(System.in);
+        int score = input.nextInt();
+        System.out.printf("Your score is %d\n", score);
     }
     
 }

@@ -18,6 +18,9 @@ public class PR1_2 {
      * @exception no exceptions.
      */
     public static void main(String[] args) {
+        //PT: Since you're expecting 3 arguments, it'd be good to check
+        //if (args.length < 3) System.out.println("Please enter three arguments");
+        //else { ...
         for (int i=0; i<3; i++) {
             System.out.println(args[i]);
         }

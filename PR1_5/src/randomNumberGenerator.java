@@ -16,7 +16,7 @@ public class randomNumberGenerator {
      */
     public static void main(String[] args) {
         Random RNG = new Random();
-        Random testRNG = new Random();
+        Random testRNG = new Random(); //PT: You don't really need this one
         int testInt = testRNG.nextInt(100);
         for (int i=0; i<25; i++) {
             int randomInt = RNG.nextInt(100);
